@@ -1,0 +1,195 @@
+/* Импорт шрифта Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+/* Основные стили */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #1a1a2e;
+    color: #f5f5f5;
+    line-height: 1.6;
+}
+
+/* Навигационная панель */
+.wy-nav-side {
+    background-color: #16213e;
+    width: 280px;
+    padding: 20px;
+    border-right: 1px solid #2a2a4a;
+}
+
+.wy-menu-vertical a {
+    color: #d5d5f5;
+    font-size: 15px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.wy-menu-vertical a:hover {
+    background-color: #2a2a4a;
+    color: #ffffff;
+}
+
+.wy-menu-vertical li.current a {
+    background-color: #3a3a5a;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+/* Заголовки разделов в навигационной панели ("Модули", "Полезные ссылки" и т.д.) */
+.wy-menu-vertical p.caption {
+    color: #ffffff; /* Меняем серый на белый */
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Основной контент */
+.wy-nav-content {
+    background-color: #1f1f3d;
+    margin-left: 300px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.wy-nav-content-wrap {
+    background: transparent;
+}
+
+/* Заголовки */
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 2.2em;
+    border-bottom: 2px solid #4a4a7a;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.8em;
+    border-left: 4px solid #6a6a9a;
+    padding-left: 10px;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #e5e5ff;
+}
+
+/* Ссылки */
+a {
+    color: #7aa2f7;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #a0c0ff;
+    text-decoration: underline;
+}
+
+/* Код */
+pre, code {
+    background-color: #2a2a4a;
+    color: #f0f0f0;
+    border: 1px solid #3a3a6a;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+pre {
+    overflow-x: auto;
+}
+
+/* Таблицы */
+table {
+    background-color: #2a2a4a;
+    color: #f5f5f5;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+}
+
+table th, table td {
+    border: 1px solid #3a3a6a;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #3a3a6a;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+/* Кнопки навигации (предыдущая/следующая) */
+.rst-footer-buttons a {
+    background-color: #3a3a6a;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.rst-footer-buttons a:hover {
+    background-color: #4a4a9a;
+}
+
+/* Поиск */
+#search-field {
+    background-color: #2a2a4a;
+    color: #f5f5f5;
+    border: 1px solid #3a3a6a;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+#search-field::placeholder {
+    color: #c0c0e0;
+}
+
+/* Улучшение отступов и контейнеров */
+.rst-content .section {
+    margin-bottom: 30px;
+}
+
+.rst-content ul {
+    margin-left: 20px;
+}
+
+.rst-content ul li {
+    margin-bottom: 10px;
+}
+
+/* Верхняя панель */
+.wy-nav-top {
+    background-color: #16213e;
+    padding: 15px;
+}
+
+.wy-nav-top a {
+    color: #ffffff;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+/* Второстепенный текст (например, подписи) */
+.rst-content .admonition-title {
+    color: #ffffff;
+}
+
+.rst-content .admonition {
+    background-color: #2a2a4a;
+    border-left: 4px solid #4a4a7a;
+    padding: 15px;
+    color: #f5f5f5;
+}
